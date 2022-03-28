@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+    <script src="https://use.fontawesome.com/5304a4f849.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>EARTHLINGS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header" id="header">    
+            <a class="logo" href="#home">earthlings</a>
+            <div id="circularMenu" class="circular-menu">
+                <a class="menu-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');"><span></span></a>
+                <menu class="items-wrapper">
+                    <a href="#about-us" class="menu-item fa fa-sign-language"></a>
+                    <a href="#trips" class="menu-item fa fa-eye "></a>
+                    <a href="#join" class="menu-item fa fa-heart"></a>
+                    <a href="#footer" class="menu-item fa fa-share-alt"></a>
+                </menu>
+            </div>
+        </div>
+        <div class="page">
+            <div class="parallax">
+                <ul class="parallax__list">
+                    <li data-depth="0.10">
+                        <div class="parallax__bg"></div>
+                    </li>
+                    <li data-depth="0.15">
+                        <div class="parallax__rope parallax__rope_1">
+                            <div class="parallax__element parallax__element_1"><span></span></div>
+                            <div class="parallax__element parallax__element_2"><span></span></div>
+                            <div class="parallax__element parallax__element_3"><span></span></div>
+                        </div>
+                    </li>
+                    <li data-depth="0.30">
+                        <div class="parallax__rope parallax__rope_2">
+                            <div class="parallax__element parallax__element_4"><span></span></div>
+                            <div class="parallax__element parallax__element_5"><span></span></div>
+                        </div>
+                    </li>
+                    <li data-depth="0.60">
+                        <div class="parallax__rope parallax__rope_3">
+                            <div class="parallax__element parallax__element_6"><span></span></div>
+                            <div class="parallax__element parallax__element_7"><span></span></div>
+                            <div class="parallax__element parallax__element_8"><span></span></div>
+                        </div>
+                    </li>
+                    <li data-depth="0.60">
+                        <div class="parallax__tent"></div>
+                    </li>
+                    <li data-depth="0.60">
+                        <div class="parallax__litehouse"></div>
+                    </li>
+                </ul>
+                <a href="#about-us" class="parallax__btn button">start</a>
+            </div>
+            <div class="content">
+                <div class="about" id="about-us">
+                    <div class="container">
+                        <h2 class="about__header heading">about us</h2>
+                        <div class="about__items slider">
+                            <div class="about__item slide">
+                                <div class="front about__link">
+                                    <img class="about__icon" src="img/girl.png" alt="">
+                                    <h3>who are we?</h3>
+                                </div>
+                                <div class="back">
+                                    <p>We are earthlings - team, 
+                                    who helps to open yourself via journeys in our home - Earth</p>
+                                </div>
+                            </div>
+                            <div class="about__item slide">
+                                <div class="about__link front">
+                                    <img class="about__icon" src="img/tea.png" alt="">
+                                    <h3>What are we doing?</h3>
+                                </div>
+                                <div class="back">
+                                    <p>Our journey-therapy consists of observing nature and your feeling in such moments, 
+                                    communication with like-minded people and psycologists,
+                                    seeing the beauty of our wonderful planet and just chilling! </p>
+                                </div>
+                            </div>
+                            <div class="about__item slide">
+                                <div class="about__link front">
+                                    <img class="about__icon" src="img/pine-tree.png" alt="">
+                                    <h3>Where are we going?</h3>
+                                </div>
+                                <div class="back">
+                                    <p>The main feature of places which we choose is connection with nature via the forest purity, absence of noises and distance from crowded cities.</p>
+                                </div>
+                            </div>
+                            <div class="about__item slide">
+                                <div class="about__link front">
+                                    <img class="about__icon" src="img/backpack.png" alt="">
+                                    <h3>What's needing for this?</h3>
+                                </div>
+                                <div class="back">
+                                    <p>Backpack with your the needest things, desire to open yourself and trust to us.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="trips" id="trips">
+                    <div class="container">
+                        <h2 class="trips__header heading">trips</h2>
+                        <div class="trips__items slider">
+                            <div class="trips__item slide">
+                                <div class="trips__image">
+                                    <img src="img/slowly.png" alt="">
+                                    <a href="##" class="button trips-btn">read more</a>
+                                    <a href="##" class="button trips__text">slowly trip</a>
+                               </div>
+                            </div>
+                            <div class="trips__item slide">
+                                <div class="trips__image">
+                                    <img src="img/mystery.png" alt="">
+                                    <a href="#" class="button trips-btn">read more</a>
+                                    <a href="#" class="button trips__text">mystery trip</a></div>
+                            </div>
+                            <div class="trips__item slide">
+                                <div class="trips__image">
+                                    <img src="img/speedy.png" alt="">
+                                    <a href="#" class="button trips-btn">read more</a>
+                                    <a href="#" class="button trips__text">speedy trip</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="join" class="join">
+                    <div class="container">
+                        <div class="join__inner">
+                            <h2 class="join__header heading">are u ready?</h2>
+                            <form action="">
+                            <div class="join__item">
+                                <input tabindex="1" type="text" placeholder="Name">
+                                
+                            </div>
+                            <div class="join__item">
+                                <input tabindex="2" type="text" placeholder="Mail or Inst or Telegram">
+                            </div>
+                            <div class="join__item"> 
+                                <input tabindex="3" type="textarea" placeholder="Any questions, wishes or just nice words">
+                            </div>
+                            <div class="join__item">
+                                <button tabindex="4" class="join__btn button">become an earthman</button>
+                            </div>
+                        </form>
+                        </div>                 
+                    </div>
+                </div>
+                <footer id="footer">
+                    <div class="container">
+                    <div class="info">
+                        <a class="info__logo logo" href="#home">we are earthlings</a>
+                    </div>
+                    <div class="btn-wrap">
+                        <span>Contacts</span>
+                        <div class="footer-container">
+                            <i class="fa fa-2x fa-facebook-f"></i>
+                            <i class="fa fa-2x fa-twitter"></i>
+                            <i class="fa fa-2x fa-instagram"></i>
+                            <i class="fa fa-2x fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+                </footer>
+            </div>    
+        </div>    
+    </div>
+    
+    <div class="preloader"></div>
+    <div id="top"></div>
+
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/script.min.js"></script>
+    <script>
+    
+    
+    </script>
+        
+</body>
+
+</html>
