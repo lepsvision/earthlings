@@ -98,7 +98,7 @@ body {
 
 .header {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -855,8 +855,6 @@ footer .info__logo {
   transition: all 0.2s ease-in-out;
   line-height: 2.5em;
   letter-spacing: 5px;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
 }
 
 .btn-wrap:hover {
@@ -1220,12 +1218,31 @@ footer span {
     width: 90%;
     margin: 2%;
   }
+
+  .btn-wrap:focus {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
 }
 
 @media screen and (max-width: 580px) {
-  .parallax__rope {
-    width: 90%;
-    left: -5%;
+  .parallax__bg {
+    top: 17%;
+  }
+
+  .parallax__rope_2 {
+    top: -1.66667%;
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  .parallax__rope_3 {
+    top: 0;
+    -webkit-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+            transform: scale(0.6);
   }
 
   .content {
@@ -1241,13 +1258,11 @@ footer span {
   }
 
   .wrapper.active .parallax__tent {
-    bottom: -27%;
-    width: 30%;
+    bottom: -32%;
   }
 
   .wrapper.active .parallax__litehouse {
-    width: 24%;
-    bottom: -27%;
+    bottom: -33%;
   }
 
   .about {
@@ -1279,9 +1294,10 @@ footer span {
   }
 
   .parallax__btn {
-    padding: 15px 50px;
-    right: 30%;
+    padding: 15px 30px;
+    right: 35%;
     bottom: 30%;
+    line-height: 8px;
   }
 
   .join form {
