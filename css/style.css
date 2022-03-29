@@ -329,7 +329,7 @@ body {
   height: 110%;
   top: -5%;
   left: -5%;
-  background: url("../img/back.jpg") 0 7%/cover no-repeat;
+  background: url("../img/back.jpg") 0 50%/cover no-repeat;
 }
 
 .parallax__rope {
