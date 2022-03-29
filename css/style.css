@@ -1223,10 +1223,6 @@ footer span {
 }
 
 @media screen and (max-width: 580px) {
-  .parallax__bg {
-    opacity: 0;
-  }
-
   .parallax__rope {
     width: 90%;
     left: -5%;
