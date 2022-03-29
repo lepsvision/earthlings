@@ -1227,7 +1227,7 @@ footer span {
     margin: 2%;
   }
 
-  .btn-wrap:focus span {
+  .btn-wrap:active span {
     -webkit-transform: translateX(-280px);
         -ms-transform: translateX(-280px);
             transform: translateX(-280px);
@@ -1281,14 +1281,10 @@ footer span {
     padding: 30px 0;
   }
 
-  .about .about__item {
-    line-height: 10px;
-    font-size: 12px;
-  }
-
-  .about .front,
-  .about .back {
+  .about .about__item .front,
+  .about .about__item .back {
     padding: 5%;
+    font-size: 14px;
   }
 
   .trips {
