@@ -87,7 +87,7 @@ h6 {
 
 body {
   overflow-x: hidden;
-  background: #011321 url("../img/back1.png") 0 90%/cover no-repeat fixed;
+  background: #011321 url("../img/back1.png") 10% 70%/cover no-repeat fixed;
   font-family: "Fredoka", sans-serif;
   scroll-behavior: smooth;
 }
@@ -1190,13 +1190,13 @@ footer span {
 
   .parallax {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
   }
 
   .parallax__btn {
     right: 40%;
-    bottom: 40%;
+    bottom: 45%;
   }
 
   .button {
@@ -1246,10 +1246,15 @@ footer span {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 767px) {
+  .parallax__list li {
+    height: 100%;
+  }
+
   .parallax__bg {
     top: 20%;
     background-position: 50%;
+    height: 115%;
   }
 
   .parallax__rope_2 {
@@ -1274,10 +1279,6 @@ footer span {
     margin-left: 0px;
   }
 
-  .parallax__list li {
-    height: 110%;
-  }
-
   .wrapper.active .parallax__tent {
     bottom: -15%;
     width: 25%;
@@ -1290,7 +1291,7 @@ footer span {
 
   .about {
     margin: 0 10px;
-    padding: 30px 0;
+    padding-top: 0px;
   }
 
   .about .about__item .front,
@@ -1314,8 +1315,8 @@ footer span {
 
   .parallax__btn {
     padding: 15px 30px;
-    right: 35%;
-    bottom: 30%;
+    right: 40%;
+    bottom: 45%;
     line-height: 8px;
   }
 
@@ -1352,61 +1353,92 @@ footer span {
 
   .parallax {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 55%;
-            flex: 0 0 55%;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
   }
 }
 
-@media screen and (max-width: 430px) {
-  .wrapper.active .parallax__tent {
-    display: none;
+@media screen and (max-width: 648px) {
+  .parallax__list li {
+    height: 101%;
   }
 
+  .parallax__bg {
+    top: 20%;
+    background-position: 50%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .wrapper.active .parallax__tent,
   .wrapper.active .parallax__litehouse {
-    display: none;
+    display: block;
   }
 
   .about .about__item .back {
     line-height: 15px;
   }
-}
 
-@media screen and (max-height: 450px) {
-  .parallax {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+  .parallax__bg {
+    top: 20%;
+    background-position: 50%;
+    height: 95%;
   }
-}
 
-@media screen and (max-height: 400px) {
-  .wrapper.active .parallax__tent,
-  .wrapper.active .parallax__litehouse {
-    display: none;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .parallax {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+  .parallax__list li {
+    height: 100%;
   }
 
   .parallax__btn {
-    bottom: 35%;
+    right: 35%;
+    bottom: 40%;
   }
-}
 
-@media screen and (min-height: 700px) {
   .parallax {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 65%;
             flex: 0 0 65%;
   }
+}
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .parallax {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
+@media (min-height: 1024px) {
+  .parallax {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
+  }
+}
+
+@media (min-height: 375px) and (max-height: 450px) {
   .wrapper.active .parallax__tent,
   .wrapper.active .parallax__litehouse {
-    bottom: -15%;
+    display: none;
+  }
+
+  .parallax {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+
+  .parallax__list li {
+    height: 100%;
+  }
+}
+
+@media (min-height: 451px) and (max-height: 60px) {
+  .parallax {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
   }
 }
